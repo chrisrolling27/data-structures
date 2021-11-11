@@ -21,14 +21,8 @@ var Queue = function() {
       for (var i = 0; i < counter; i++) {
         storage[i] = storage[i + 1];
       }
-
-
-
       return result;
     }
-
-
-
   };
 
   someInstance.size = function() {
