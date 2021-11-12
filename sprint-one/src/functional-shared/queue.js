@@ -15,9 +15,6 @@ var Queue = function() {
 
 var queueMethods = {};
 
-
-
-
 queueMethods.size = function() {
   return this.counter;
 };
