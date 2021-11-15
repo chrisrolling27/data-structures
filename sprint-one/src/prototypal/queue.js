@@ -32,5 +32,5 @@ queueMethods.dequeue = function() {
     }
 
     return result;
-  };
+  }
 };

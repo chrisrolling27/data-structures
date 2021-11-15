@@ -25,7 +25,7 @@ class Queue {
       this.count -= 1;
       for (let i = 0; i < this.count; i++) {
         this.storage[i] = this.storage[i + 1];
-      };
+      }
 
       return result;
     }
